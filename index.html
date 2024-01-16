@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Helper</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <script src="c-info.js"></script>
+    <div class="main-content">
+        <h1 class="logo">Color Helper</h1>
+        <div class="menu">
+            <div class="color-selector">
+                <ul>
+                    <li style="background-color: #ff0000;" id="Red" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #ff00bc;" id="Pink" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #aa00ff;" id="Purple" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #2119ff;" id="Dark Blue" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #00D2FF;" id="Blue" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #30d5c8;" id="Turquoise" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #00FF00;" id="Green" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #a3fa00;" id="Lime" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #fff600;" id="Yellow" onClick = "getcolor(this)"></li>
+                    <li style="background-color: #ff9000;" id="Orange" onClick = "getcolor(this)"></li>
+                </ul>
+            </div>
+            <div class="color-info">
+                <div class="selected-color">
+                    <p>CHOOSEN COLOR</p>
+                    <div class="color-circle"></div>
+                    <p>Red</p>
+                </div>
+                <div class="selected-color_info">
+                    <div class="field">
+                        <p>COL</p>
+                        <p class="field-color">Red</p>
+                    </div>
+                    <div class="field">
+                        <p>HEX</p>
+                        <p class="field-hex">#FF0000</p>
+                    </div>
+                    <div class="field">
+                        <p>RGB</p>
+                        <p class="field-rgb">255, 1, 0</p>
+                    </div>
+                    <div class="field">
+                        <p>CMYK</p>
+                        <p class="field-cmyk">0%, 100%, 100%</p>
+                    </div>
+                    <div class="field">
+                        <p>HSL</p>
+                        <p class="field-hsl">0, 100%, 50%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
