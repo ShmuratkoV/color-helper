@@ -44,4 +44,5 @@ Color Helper - это простой веб-инструмент, который
 
 Ваши вклады приветствуются! Если у вас есть идеи по улучшению или созданию новых функций, не стесняйтесь создать issue или отправлять pull request.
 
-# color-helper
+## Онлайн просмотр через GitHub Pages:
+[Color Helper на GitHub Pages](https://shmuratkov.github.io/color-helper/)
